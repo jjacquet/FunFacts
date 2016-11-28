@@ -41,19 +41,28 @@
                                     <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="HKB-NH-yT0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNI-dl-AxS">
+                                <rect key="frame" x="36" y="160" width="118" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="TfN-wo-fq5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8mg-lI-tMC"/>
                             <constraint firstItem="TfN-wo-fq5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Mxe-2u-ysL"/>
+                            <constraint firstItem="zNI-dl-AxS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="140" id="Ns0-DW-Pp4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TfN-wo-fq5" secondAttribute="trailing" constant="20" id="O9J-ET-RPr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NeY-KY-sCg" secondAttribute="trailing" constant="20" id="a7Q-Tx-wIJ"/>
+                            <constraint firstItem="zNI-dl-AxS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="avZ-ur-1Tp"/>
                             <constraint firstItem="TfN-wo-fq5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n8v-KR-uou"/>
                             <constraint firstItem="NeY-KY-sCg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="pkr-8I-jKk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NeY-KY-sCg" secondAttribute="bottom" constant="80" id="qv7-cM-WV9"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FunFactButton" destination="NeY-KY-sCg" id="UNX-2U-rz8"/>
                         <outlet property="FunFactLabel" destination="TfN-wo-fq5" id="Cvv-dZ-LuS"/>
                     </connections>
                 </viewController>
