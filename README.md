@@ -9,7 +9,7 @@ I've provided a small example of the *xcodebuild* commandline arguments to be us
 
 A. Open the terminal and pass the inline command:
   
-`xcodebuild build-for-testing clean build -project FunFacts.xcodeproj/ -scheme FunFacts -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1'`
+`xcodebuild build-for-testing clean -project FunFacts.xcodeproj/ -scheme FunFacts -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1'`
 
   ( This cleans the dervived data and builds an artifact *.app* that only has to be built once. )
 
