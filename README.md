@@ -4,4 +4,4 @@ This also includes the usage of XCTest UI Automation framework demonstrating Vie
 The entire demo can run in the simulator for testing purposes by selecting the Test Navigator and running the FunFactTest Target.
 All test are autonmous and can run in random order.
 
-Jeremiah Jacquet - All rights reserver ©
+Jeremiah Jacquet - All rights reserved ©
