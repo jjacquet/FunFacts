@@ -5,7 +5,7 @@ The project was created in Xcode 8.1. The entire demo be can ran in the Xcode ID
 
 or
 
-You this is a slight example of how I would run it in CI:
+I've provided a small example of the *xcodebuild* commandline arguments to be used in a Continuous Itegration shell.
 
 1. Open the terminal and pass the inline command:
   This cleans the dervived data and builds an artifact *.app* that only has to be built once. 
