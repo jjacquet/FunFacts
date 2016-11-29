@@ -8,11 +8,11 @@ or
 You this is a slight example of how I would run it in CI:
 
 1. Open the terminal and pass the inline command:
-⋅⋅* this clean the dervived data and builds an artifact .app that only has to be built once. 
+  This cleans the dervived data and builds an artifact *.app* that only has to be built once. 
 `xcodebuild build-for-testing clean build -project FunFacts.xcodeproj/ -scheme FunFacts -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' -only-testing:FunFactTest`
 
-2. 
-⋅⋅* this uses the prebuilt testing artifact for subsquent testing on local or slaved machines
+2. Now pass the follwing command to run the test target without recompiling
+  This uses the prebuilt testing artifact for subsquent testing on local or slaved machines and also provides granular control over seperate testing targets
 `xcodebuild test-without-building -project FunFacts.xcodeproj/ -scheme FunFacts -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' -only-testing:FunFactTest`
 
 All test are autonomous and can be executed in random order.
