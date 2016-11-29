@@ -17,4 +17,5 @@ You this is a slight example of how I would run it in CI:
 
 All test are autonomous and can be executed in random order.
 
+Application and Framework created by:
 Jeremiah Jacquet - All rights reserved ©
