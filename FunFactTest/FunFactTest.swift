@@ -13,5 +13,16 @@ class FunFactsUITests: TestCase {
     func testFactButton() {
         _ = FunFactLandingViewModel(funFactApp: funFactApp, testCase: self)
             .verifyFunFactButton()
+            .tapFunFactButton()
+    }
+    
+    func testTextChanged() {
+        _ = FactsModel(funFactApp: funFactApp, testCase: self)
+            .verifyFacts()
+    }
+    
+    func testHeaderTitle() {
+        _ = FunFactLandingViewModel(funFactApp: funFactApp, testCase: self)
+            .verifyHeaderTitle()
     }
 }

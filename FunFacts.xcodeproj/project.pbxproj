@@ -19,6 +19,9 @@
 		2799FAE91DECD56F00190ADD /* WaitForElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B635BD1DECC46A001BE57A /* WaitForElements.swift */; };
 		2799FAEA1DECD56F00190ADD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B635B81DECC3DB001BE57A /* Model.swift */; };
 		2799FAEB1DECD56F00190ADD /* FunFactLandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B635C01DECC615001BE57A /* FunFactLandingViewModel.swift */; };
+		27EB46841DEDECAB00AD36F6 /* QueryElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB46831DEDECAB00AD36F6 /* QueryElements.swift */; };
+		27EB46861DEDED8300AD36F6 /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB46851DEDED8300AD36F6 /* FactsModel.swift */; };
+		27EB46881DEDF38900AD36F6 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB46871DEDF38900AD36F6 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		27B635B81DECC3DB001BE57A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		27B635BD1DECC46A001BE57A /* WaitForElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitForElements.swift; sourceTree = "<group>"; };
 		27B635C01DECC615001BE57A /* FunFactLandingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFactLandingViewModel.swift; sourceTree = "<group>"; };
+		27EB46831DEDECAB00AD36F6 /* QueryElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryElements.swift; sourceTree = "<group>"; };
+		27EB46851DEDED8300AD36F6 /* FactsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		27EB46871DEDF38900AD36F6 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,6 @@
 			children = (
 				2777918B1DEA61E90096A332 /* FunFacts */,
 				27B635B41DECC2D9001BE57A /* Tests */,
-				2799FADF1DECD55C00190ADD /* FunFactTest */,
 				2777918A1DEA61E90096A332 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		27B635B41DECC2D9001BE57A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				2799FADF1DECD55C00190ADD /* FunFactTest */,
 				27B635B61DECC360001BE57A /* TestCase.swift */,
 				27B635BC1DECC431001BE57A /* Extensions */,
 				27B635B51DECC2ED001BE57A /* Models */,
@@ -134,6 +140,7 @@
 			children = (
 				27B635B81DECC3DB001BE57A /* Model.swift */,
 				27B635C01DECC615001BE57A /* FunFactLandingViewModel.swift */,
+				27EB46851DEDED8300AD36F6 /* FactsModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -142,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				27B635BD1DECC46A001BE57A /* WaitForElements.swift */,
+				27EB46831DEDECAB00AD36F6 /* QueryElements.swift */,
+				27EB46871DEDF38900AD36F6 /* Buttons.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -263,10 +272,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2799FAE11DECD55C00190ADD /* FunFactTest.swift in Sources */,
+				27EB46861DEDED8300AD36F6 /* FactsModel.swift in Sources */,
 				2799FAEB1DECD56F00190ADD /* FunFactLandingViewModel.swift in Sources */,
 				2799FAE91DECD56F00190ADD /* WaitForElements.swift in Sources */,
+				27EB46841DEDECAB00AD36F6 /* QueryElements.swift in Sources */,
 				2799FAE81DECD56F00190ADD /* TestCase.swift in Sources */,
 				2799FAEA1DECD56F00190ADD /* Model.swift in Sources */,
+				27EB46881DEDF38900AD36F6 /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +485,7 @@
 				2799FAE71DECD55C00190ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,10 +12,21 @@ class FunFactLandingViewModel: Model {
     
     func verifyFunFactButton() -> FunFactLandingViewModel {
         waitForExistenceElementInSeconds(funButton, waitSeconds: 5)
-        funButton.tap()
-        
+        XCTAssertTrue(funButton.isEnabled)
         return FunFactLandingViewModel(funFactApp: funFactApp, testCase: testCase)
     }
     
-    var funButton: XCUIElement { get { return funFactApp.buttons["Show Another Fun Fact"] } }
+    func tapFunFactButton() -> FunFactLandingViewModel {
+        waitForExistenceElementInSeconds(funButton, waitSeconds: 5)
+        funButton.tap()
+        return FunFactLandingViewModel(funFactApp: funFactApp, testCase: testCase)
+    }
+    
+    func verifyHeaderTitle() -> FunFactLandingViewModel {
+        waitForExistenceElementInSeconds(headerTitle, waitSeconds: 5)
+        XCTAssertTrue(headerTitle.exists)
+        return FunFactLandingViewModel(funFactApp: funFactApp, testCase: testCase)
+    }
+    
+    var headerTitle: XCUIElement { get { return funFactApp.staticTexts["Did you know?"] } }
 }
