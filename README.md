@@ -5,7 +5,7 @@ The project was created in Xcode 8.1. The entire demo be can ran in the Xcode ID
 
 _Below I've provded 3 ways you can try out my test code and app:_
 
-# 1. For testing with the Xcode IDE:
+# 1. For testing within the Xcode IDE:
 
 Select the *Test Navigator* and run the *FunFactTest* Target. 
 
