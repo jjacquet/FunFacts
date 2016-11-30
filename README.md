@@ -5,7 +5,7 @@ The project was created in Xcode 8.1. The entire demo be can ran in the Xcode ID
 
 or
 
-I've provided a small example of the *xcodebuild* commandline arguments to be used in a Continuous Itegration shell.
+I've provided a small example of the *xcodebuild* commandline arguments that can be ran in the terminal or in a Continuous Itegration shell.
 
 A. Open the terminal and pass the inline command:
   
