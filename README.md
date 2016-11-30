@@ -28,5 +28,5 @@ or
 
 All tests are autonomous and can be executed in random order.
 
-Application and Framework created by:
+Application and implementation by: 
 Jeremiah Jacquet - All rights reserved ©
