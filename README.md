@@ -14,7 +14,7 @@ Select the *Test Navigator* and run the *FunFactTest* Target.
 
 or
 
-### 3. I've provided a small example of the *xcodebuild* commandline arguments that can be ran in the terminal or in a Continuous Itegration shell. Open the terminal and pass the inline command:
+### 3. I've provided a small example of the *xcodebuild* command line arguments that can be ran in the terminal or in a Continuous Itegration shell. Open the terminal and pass the inline command:
   
 `xcodebuild build-for-testing clean -project FunFacts.xcodeproj/ -scheme FunFacts -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1'`
 
