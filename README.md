@@ -3,7 +3,7 @@ Single view iOS application that demonstrates a GameKit random generator using a
 This also includes the usage of XCTest UI Automation framework demonstrating View Object Model aka Page Object Model testing. 
 The project was created in Xcode 8.1. The entire demo be can ran in the Xcode IDE via the simulator. 
 
-_Below I've provded 3 ways you can try out the test code on my app:_
+_Below I've provded 3 ways you can try out my test code and app:_
 
 # 1. For testing with the Xcode IDE:
 
