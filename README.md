@@ -1,7 +1,8 @@
 # FunFacts
 Single view iOS application that demonstrates a GameKit random generator using a data model.
 This also includes the usage of XCTest UI Automation framework demonstrating View Object Model aka Page Object Model testing. 
-The project was created in Xcode 8.1. The entire demo be can ran in the Xcode IDE via the simulator. For testing through the IDE, select the *Test Navigator* and run the *FunFactTest* Target.
+The project was created in Xcode 8.1. The entire demo be can ran in the Xcode IDE via the simulator. For testing through the IDE, select the *Test Navigator* and run the *FunFactTest* Target. For simple execution Open the project in Xcode>Press 
+# ⌘ + U
 
 or
 
